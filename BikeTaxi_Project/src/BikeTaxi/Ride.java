@@ -8,7 +8,7 @@ class Ride {
     private String pickupLocation;
     private String dropLocation;
     private double fare;
-    private String status; // "Booked", "Cancelled", "Accepted", "Completed"
+    private String status; 
 
     public Ride(int rideId, String customerName, String pickupLocation, String dropLocation, double fare) {
         this.rideId = rideId;
@@ -153,7 +153,7 @@ class BikeTaxiService {
             System.out.println("3. Exit");
             System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -200,10 +200,7 @@ class BikeTaxiService {
 
                 case 2:
                     System.out.println("\n--- Rider Menu ---");
-                    System.out.println("1. View Rides");
-                    System.out.println("2. Accept a Ride");
-                    System.out.println("3. Confirm a Ride");
-                    System.out.print("Enter your choice: ");
+                    System.out.println(" 1. View Rides\n 2. Accept a Ride\n 3. Confirm a Ride\n Enter your choice: ");
                     int riderChoice = scanner.nextInt();
                     scanner.nextLine();
 
