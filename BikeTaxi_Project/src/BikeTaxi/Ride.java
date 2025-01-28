@@ -148,21 +148,14 @@ class BikeTaxiService {
 
         while (true) {
             System.out.println("\n--- Bike Taxi Booking System ---");
-            System.out.println("1. Customer Login");
-            System.out.println("2. Rider Login");
-            System.out.println("3. Exit");
-            System.out.print("Enter your choice: ");
+            System.out.println("1. Customer Login\n 2. Rider Login\n 3. Exit\n Enter your choice: ");
             int choice = scanner.nextInt();
             scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
                     System.out.println("\n--- Customer Menu ---");
-                    System.out.println("1. Book a Ride");
-                    System.out.println("2. Cancel a Ride");
-                    System.out.println("3. View Ride Status");
-                    System.out.println("4. View Ride History");
-                    System.out.print("Enter your choice: ");
+                    System.out.println("1. Book a Ride\n 2. Cancel a Ride\n 3. View Ride Status\n 4. View Ride History\n Enter your choice: ");
                     int customerChoice = scanner.nextInt();
                     scanner.nextLine();
 
